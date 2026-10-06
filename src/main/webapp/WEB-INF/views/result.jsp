@@ -5,25 +5,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Результат проверки</title>
-    <style>
-        body { font-family: sans-serif; max-width: 700px; margin: 20px auto; }
-        table { border-collapse: collapse; }
-        td, th { border: 1px solid #888; padding: 4px 12px; }
-        .hit { color: green; } .miss { color: red; }
-    </style>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/style.css">
 </head>
 <body>
 <h1>Результат проверки</h1>
 <table>
-    <tr><th>X</th><th>Y</th><th>R</th><th>Время</th><th>Время работы, нс</th></tr>
     <tr>
-        <td>${result.x}</td><td>${result.y}</td><td>${result.r}</td>
-        <td>${result.time}</td><td>${result.nanos}</td>
+        <th>X</th>
+        <th>Y</th>
+        <th>R</th>
+        <th>Время</th>
+        <th>Время работы, нс</th>
+    </tr>
+    <tr>
+        <td>${result.x}</td>
+        <td>${result.y}</td>
+        <td>${result.r}</td>
+        <td id="result-time" data-iso="${result.time}">${result.time}</td>
+        <td>${result.nanos}</td>
     </tr>
 </table>
+
 <h2 class="${result.hit ? 'hit' : 'miss'}">
     <c:out value="${result.hit ? 'Точка попала в область' : 'Точка не попала в область'}"/>
 </h2>
-<p><a href="${pageContext.request.contextPath}/controller">Новый запрос</a></p>
+
+<p><a href="${pageContext.request.contextPath}/controller?r=${result.r}">Новый запрос</a></p>
+<script>
+    const cell = document.getElementById('result-time');
+    const iso = cell.getAttribute('data-iso');
+    if (iso) {
+        const dateObj = new Date(iso);
+        if (!isNaN(dateObj.getTime())) {
+            cell.textContent = new Intl.DateTimeFormat('ru-RU', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            }).format(dateObj);
+        }
+    }
+</script>
 </body>
 </html>

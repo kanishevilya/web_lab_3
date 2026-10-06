@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.page-header {
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #003366;
+    background-color: #e6e6e6;
+    border: 1px solid #333333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.graph-container {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#plot {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    cursor: crosshair;
+}
+
+.form-container {
+    background-color: #f5f5f5;
+    border: 1px solid #aaaaaa;
+    padding: 20px;
+    min-width: 320px;
+}
+
+.input-group {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 140px;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #888888;
+}
+
+input[type="text"]:focus {
+    background-color: #ffffee;
+    border: 1px solid #003366;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.radio-group label {
+    background: #dddddd;
+    padding: 4px 8px;
+    border: 1px solid #777777;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: #005500;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #cc0000;
+    font-size: 13px;
+    margin-top: 5px;
+    min-height: 16px;
+}
+
+.table-container {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.table-container > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container > table th,
+.table-container > table td {
+    border: 1px solid #444444;
+    padding: 8px;
+    text-align: center;
+}
+
+td {max-width: 300px; overflow-x: auto;}
+
+.result-card {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.result-card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.hit {
+    color: #008800;
+    font-weight: bold;
+}
+
+.miss {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #003366;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-link:hover {
+    background: #002244;
+}

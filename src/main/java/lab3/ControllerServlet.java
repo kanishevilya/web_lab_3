@@ -14,9 +14,11 @@ public class ControllerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
-        boolean hasPoint = req.getParameter("x") != null
-                && req.getParameter("y") != null
-                && req.getParameter("r") != null;
+
+        boolean hasPoint = isNotEmpty(req.getParameter("x"))
+                && isNotEmpty(req.getParameter("y"))
+                && isNotEmpty(req.getParameter("r"));
+
         String target = hasPoint ? "/check" : "/index.jsp";
         req.getRequestDispatcher(target).forward(req, resp);
     }
@@ -27,4 +29,7 @@ public class ControllerServlet extends HttpServlet {
         req.getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 
+    private boolean isNotEmpty(String s) {
+        return s != null && !s.trim().isEmpty();
+    }
 }

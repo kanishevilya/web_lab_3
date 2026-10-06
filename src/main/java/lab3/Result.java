@@ -1,16 +1,19 @@
 package lab3;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 public class Result implements Serializable {
-    private final double x;
-    private final double y;
-    private final double r;
-    private final boolean hit;
-    private final String time;
-    private final long nanos;
+    private BigDecimal x;
+    private BigDecimal y;
+    private BigDecimal r;
+    private boolean hit;
+    private String time;
+    private long nanos;
 
-    public Result(double x, double y, double r, boolean hit, String time, long nanos) {
+    public Result() {}
+
+    public Result(BigDecimal x, BigDecimal y, BigDecimal r, boolean hit, String time, long nanos) {
         this.x = x;
         this.y = y;
         this.r = r;
@@ -19,11 +22,21 @@ public class Result implements Serializable {
         this.nanos = nanos;
     }
 
-    public double getX() { return x; }
-    public double getY() { return y; }
-    public double getR() { return r; }
-    public boolean isHit() { return hit; }
-    public String getTime() { return time; }
-    public long getNanos() { return nanos; }
+    public BigDecimal getX() { return x; }
+    public void setX(BigDecimal x) { this.x = x; }
 
+    public BigDecimal getY() { return y; }
+    public void setY(BigDecimal y) { this.y = y; }
+
+    public BigDecimal getR() { return r; }
+    public void setR(BigDecimal r) { this.r = r; }
+
+    public boolean isHit() { return hit; }
+    public void setHit(boolean hit) { this.hit = hit; }
+
+    public String getTime() { return time; }
+    public void setTime(String time) { this.time = time; }
+
+    public long getNanos() { return nanos; }
+    public void setNanos(long nanos) { this.nanos = nanos; }
 }

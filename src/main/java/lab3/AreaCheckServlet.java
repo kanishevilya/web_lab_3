@@ -9,55 +9,84 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.math.BigDecimal;
+import java.time.Instant;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 @WebServlet("/check")
 public class AreaCheckServlet extends HttpServlet {
-    private static final Set<Double> Y_VALUES = Set.of(-2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0);
-    private static final Set<Double> R_VALUES = Set.of(1.0, 1.5, 2.0, 2.5, 3.0);
-    private static final DateTimeFormatter FMT = DateTimeFormatter.ofPattern("HH:mm:ss dd.MM.yyyy");
+    private static final Set<String> ALLOWED_Y = Set.of("-2", "-1.5", "-1", "-0.5", "0", "0.5", "1", "1.5", "2");
+    private static final Set<String> ALLOWED_R = Set.of("1", "1.5", "2", "2.5", "3");
+
+    private static final BigDecimal THREE = new BigDecimal("3");
+    private static final BigDecimal MINUS_THREE = new BigDecimal("-3");
+    private static final BigDecimal FIVE = new BigDecimal("5");
+    private static final BigDecimal MINUS_FIVE = new BigDecimal("-5");
 
     @Override
     @SuppressWarnings("unchecked")
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if(req.getAttribute(RequestDispatcher.FORWARD_REQUEST_URI)==null){
-            resp.sendError(HttpServletResponse.SC_FORBIDDEN, "Используйте /controller");
+        if (req.getAttribute(RequestDispatcher.FORWARD_REQUEST_URI) == null) {
+            resp.sendError(HttpServletResponse.SC_FORBIDDEN, "Прямой доступ запрещен. Используйте /controller");
             return;
         }
         long start = System.nanoTime();
 
-        double x, y, r;
+        String rawX = req.getParameter("x");
+        String rawY = req.getParameter("y");
+        String rawR = req.getParameter("r");
+        String source = req.getParameter("source");
+
+        BigDecimal x, y, r;
         try {
-            x = parse(req.getParameter("x"));
-            y = parse(req.getParameter("y"));
-            r = parse(req.getParameter("r"));
+            x = parseBigDecimal(rawX);
+            y = parseBigDecimal(rawY);
+            r = parseBigDecimal(rawR);
         } catch (IllegalArgumentException e) {
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Некорректные числа");
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Некорректный формат чисел");
             return;
         }
 
-        boolean fromGraph = "graph".equals(req.getParameter("source"));
-        boolean ok = x > -3 && x < 3 && R_VALUES.contains(r) && (fromGraph ? (y >= -5 && y <= 5) : Y_VALUES.contains(y));
+        boolean fromGraph = "graph".equals(source);
 
-        if(!ok){
-            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Некорректные числа");
+        boolean rValid = false;
+        for (String val : ALLOWED_R) {
+            if (r.compareTo(new BigDecimal(val)) == 0) {
+                rValid = true;
+                break;
+            }
+        }
+
+        boolean xValid = x.compareTo(MINUS_THREE) > 0 && x.compareTo(THREE) < 0;
+
+        boolean yValid = false;
+        if (fromGraph) {
+            yValid = y.compareTo(MINUS_FIVE) >= 0 && y.compareTo(FIVE) <= 0;
+        } else {
+            for (String val : ALLOWED_Y) {
+                if (y.compareTo(new BigDecimal(val)) == 0) {
+                    yValid = true;
+                    break;
+                }
+            }
+        }
+
+        if (!xValid || !yValid || !rValid) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Значения выходят за пределы допустимых диапазонов");
             return;
         }
 
         boolean hit = Area.contains(x, y, r);
-        Result result = new Result(x,y,r,hit, LocalDateTime.now().format(FMT), System.nanoTime()-start);
+        Result result = new Result(x, y, r, hit, Instant.now().toString(), System.nanoTime() - start);
 
         ServletContext context = getServletContext();
         List<Result> list = (List<Result>) context.getAttribute(ResultsListener.ATTR);
-
-        if(list==null){
+        if (list == null) {
             synchronized (context) {
                 list = (List<Result>) context.getAttribute(ResultsListener.ATTR);
-                if(list==null){
+                if (list == null) {
                     list = new CopyOnWriteArrayList<>();
                     context.setAttribute(ResultsListener.ATTR, list);
                 }
@@ -69,11 +98,10 @@ public class AreaCheckServlet extends HttpServlet {
         req.getRequestDispatcher("/WEB-INF/views/result.jsp").forward(req, resp);
     }
 
-    private static double parse(String s) {
+    private static BigDecimal parseBigDecimal(String s) {
         if (s == null) throw new IllegalArgumentException("null");
-        double v = Double.parseDouble(s.trim().replace(',', '.'));
-        if (Double.isNaN(v) || Double.isInfinite(v)) throw new IllegalArgumentException("nan");
-        return v;
+        String trimmed = s.trim().replace(',', '.');
+        if (trimmed.isEmpty()) throw new IllegalArgumentException("empty");
+        return new BigDecimal(trimmed);
     }
-
 }

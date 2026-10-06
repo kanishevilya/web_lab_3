@@ -1,19 +1,33 @@
 package lab3;
 
-public final class Area {
-    private Area(){}
+import java.math.BigDecimal;
 
-    public static boolean contains(double x, double y, double r) {
-        if (x <= 0 && y >= 0) {
-            return x >= -r / 2 && y <= 2 * x + r;
+public final class Area {
+    private static final BigDecimal ZERO = BigDecimal.ZERO;
+    private static final BigDecimal TWO = new BigDecimal("2");
+
+    private Area() {}
+
+    public static boolean contains(BigDecimal x, BigDecimal y, BigDecimal r) {
+        if (x.compareTo(ZERO) <= 0 && y.compareTo(ZERO) >= 0) {
+            BigDecimal twoX = x.multiply(TWO);
+            boolean hypotenuse = y.subtract(twoX).compareTo(r) <= 0;
+            boolean leftBound = twoX.compareTo(r.negate()) >= 0;
+            return hypotenuse && leftBound;
         }
-        if (x >= 0 && y >= 0) {
-            return x * x + y * y <= r * r;
+
+        if (x.compareTo(ZERO) >= 0 && y.compareTo(ZERO) >= 0) {
+            BigDecimal x2 = x.multiply(x);
+            BigDecimal y2 = y.multiply(y);
+            BigDecimal r2 = r.multiply(r);
+            return x2.add(y2).compareTo(r2) <= 0;
         }
-        if (x >= 0 && y <= 0) {
-            return x <= r && y >= -r / 2;
+
+        if (x.compareTo(ZERO) >= 0 && y.compareTo(ZERO) <= 0) {
+            BigDecimal twoY = y.multiply(TWO);
+            return x.compareTo(r) <= 0 && twoY.compareTo(r.negate()) >= 0;
         }
+
         return false;
     }
-
 }

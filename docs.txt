@@ -1,0 +1,985 @@
+﻿
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\compiler.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JSP_servlets_lab" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\encodings.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\jarRepositories.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\misc.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\vcs.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\.idea\workspace.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3d4c706-eebc-4e43-b54e-ca0afc99acd2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3KINlIuqUJnVwOmNUq1gV9mLkmU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/WEB/lab3/JSP_servlets_lab/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB\lab3\JSP_servlets_lab\src\main\webapp" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3d4c706-eebc-4e43-b54e-ca0afc99acd2" name="Changes" comment="" />
+      <created>1791241274191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791241274191</updated>
+      <workItem from="1791241275789" duration="3888000" />
+      <workItem from="1791277986802" duration="1258000" />
+      <workItem from="1791289454043" duration="746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab3/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\java\lab3\Area.java ===
+package lab3;
+
+public final class Area {
+    private Area(){}
+
+    public static boolean contains(double x, double y, double r) {
+        if (x <= 0 && y >= 0) {
+            return x >= -r / 2 && y <= 2 * x + r;
+        }
+        if (x >= 0 && y >= 0) {
+            return x * x + y * y <= r * r;
+        }
+        if (x >= 0 && y <= 0) {
+            return x <= r && y >= -r / 2;
+        }
+        return false;
+    }
+
+}
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\java\lab3\AreaCheckServlet.java ===
+package lab3;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+@WebServlet("/check")
+public class AreaCheckServlet extends HttpServlet {
+    private static final Set<Double> Y_VALUES = Set.of(-2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0);
+    private static final Set<Double> R_VALUES = Set.of(1.0, 1.5, 2.0, 2.5, 3.0);
+    private static final DateTimeFormatter FMT = DateTimeFormatter.ofPattern("HH:mm:ss dd.MM.yyyy");
+
+    @Override
+    @SuppressWarnings("unchecked")
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if(req.getAttribute(RequestDispatcher.FORWARD_REQUEST_URI)==null){
+            resp.sendError(HttpServletResponse.SC_FORBIDDEN, "РСЃРїРѕР»СЊР·СѓР№С‚Рµ /controller");
+            return;
+        }
+        long start = System.nanoTime();
+
+        double x, y, r;
+        try {
+            x = parse(req.getParameter("x"));
+            y = parse(req.getParameter("y"));
+            r = parse(req.getParameter("r"));
+        } catch (IllegalArgumentException e) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Рµ С‡РёСЃР»Р°");
+            return;
+        }
+
+        boolean fromGraph = "graph".equals(req.getParameter("source"));
+        boolean ok = x > -3 && x < 3 && R_VALUES.contains(r) && (fromGraph ? (y >= -5 && y <= 5) : Y_VALUES.contains(y));
+
+        if(!ok){
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Рµ С‡РёСЃР»Р°");
+            return;
+        }
+
+        boolean hit = Area.contains(x, y, r);
+        Result result = new Result(x,y,r,hit, LocalDateTime.now().format(FMT), System.nanoTime()-start);
+
+        ServletContext context = getServletContext();
+        List<Result> list = (List<Result>) context.getAttribute(ResultsListener.ATTR);
+
+        if(list==null){
+            synchronized (context) {
+                list = (List<Result>) context.getAttribute(ResultsListener.ATTR);
+                if(list==null){
+                    list = new CopyOnWriteArrayList<>();
+                    context.setAttribute(ResultsListener.ATTR, list);
+                }
+            }
+        }
+        list.add(result);
+
+        req.setAttribute("result", result);
+        req.getRequestDispatcher("/WEB-INF/views/result.jsp").forward(req, resp);
+    }
+
+    private static double parse(String s) {
+        if (s == null) throw new IllegalArgumentException("null");
+        double v = Double.parseDouble(s.trim().replace(',', '.'));
+        if (Double.isNaN(v) || Double.isInfinite(v)) throw new IllegalArgumentException("nan");
+        return v;
+    }
+
+}
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\java\lab3\ControllerServlet.java ===
+package lab3;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+
+@WebServlet("/controller")
+public class ControllerServlet extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
+        boolean hasPoint = req.getParameter("x") != null
+                && req.getParameter("y") != null
+                && req.getParameter("r") != null;
+        String target = hasPoint ? "/check" : "/index.jsp";
+        req.getRequestDispatcher(target).forward(req, resp);
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        req.getRequestDispatcher("/index.jsp").forward(req, resp);
+    }
+
+}
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\java\lab3\Result.java ===
+package lab3;
+
+import java.io.Serializable;
+
+public class Result implements Serializable {
+    private final double x;
+    private final double y;
+    private final double r;
+    private final boolean hit;
+    private final String time;
+    private final long nanos;
+
+    public Result(double x, double y, double r, boolean hit, String time, long nanos) {
+        this.x = x;
+        this.y = y;
+        this.r = r;
+        this.hit = hit;
+        this.time = time;
+        this.nanos = nanos;
+    }
+
+    public double getX() { return x; }
+    public double getY() { return y; }
+    public double getR() { return r; }
+    public boolean isHit() { return hit; }
+    public String getTime() { return time; }
+    public long getNanos() { return nanos; }
+
+}
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\java\lab3\ResultsListener.java ===
+package lab3;
+
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+@WebListener
+public class ResultsListener implements ServletContextListener {
+    public static final String ATTR = "results";
+
+    @Override
+    public void contextInitialized(ServletContextEvent e) {
+        List<Result> list = new CopyOnWriteArrayList<>();
+        e.getServletContext().setAttribute(ATTR, list);
+    }
+
+}
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\webapp\WEB-INF\views\error.jsp ===
+<%@ page contentType="text/html;charset=UTF-8" isErrorPage="true" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>РћС€РёР±РєР°</title></head>
+<body>
+<h2>РћС€РёР±РєР° ${requestScope['jakarta.servlet.error.status_code']}</h2>
+<p><c:out value="${requestScope['jakarta.servlet.error.message']}"/></p>
+<a href="${pageContext.request.contextPath}/controller">Р’РµСЂРЅСѓС‚СЊСЃСЏ Рє С„РѕСЂРјРµ</a>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\webapp\WEB-INF\views\result.jsp ===
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё</title>
+    <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 20px auto; }
+        table { border-collapse: collapse; }
+        td, th { border: 1px solid #888; padding: 4px 12px; }
+        .hit { color: green; } .miss { color: red; }
+    </style>
+</head>
+<body>
+<h1>Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё</h1>
+<table>
+    <tr><th>X</th><th>Y</th><th>R</th><th>Р’СЂРµРјСЏ</th><th>Р’СЂРµРјСЏ СЂР°Р±РѕС‚С‹, РЅСЃ</th></tr>
+    <tr>
+        <td>${result.x}</td><td>${result.y}</td><td>${result.r}</td>
+        <td>${result.time}</td><td>${result.nanos}</td>
+    </tr>
+</table>
+<h2 class="${result.hit ? 'hit' : 'miss'}">
+    <c:out value="${result.hit ? 'РўРѕС‡РєР° РїРѕРїР°Р»Р° РІ РѕР±Р»Р°СЃС‚СЊ' : 'РўРѕС‡РєР° РЅРµ РїРѕРїР°Р»Р° РІ РѕР±Р»Р°СЃС‚СЊ'}"/>
+</h2>
+<p><a href="${pageContext.request.contextPath}/controller">РќРѕРІС‹Р№ Р·Р°РїСЂРѕСЃ</a></p>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\webapp\WEB-INF\web.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <display-name>lab3</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+            <scripting-invalid>true</scripting-invalid>
+        </jsp-property-group>
+    </jsp-config>
+
+    <error-page>
+        <error-code>400</error-code>
+        <location>/WEB-INF/views/error.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/WEB-INF/views/error.jsp</location>
+    </error-page>
+</web-app>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\webapp\index.jsp ===
+<%--
+  Created by IntelliJ IDEA.
+  User: Liebert
+  Date: 06.10.2026
+  Time: 02:37
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° в„–3</title>
+    <style>
+        body { font-family: sans-serif; max-width: 900px; margin: 20px auto; padding: 0 10px; }
+        header { background: #e8eefc; padding: 10px 14px; border-radius: 6px; margin-bottom: 16px; }
+        .row { margin: 10px 0; }
+        .err { color: #c00; margin-left: 10px; }
+        canvas { border: 1px solid #bbb; cursor: crosshair; max-width: 100%; }
+        table { border-collapse: collapse; margin-top: 16px; }
+        td, th { border: 1px solid #888; padding: 4px 10px; }
+    </style>
+</head>
+<body>
+<header>
+    <b>Р¤РРћ:</b> РРІР°РЅРѕРІ РРІР°РЅ РРІР°РЅРѕРІРёС‡ &nbsp;
+    <b>Р“СЂСѓРїРїР°:</b> P3xxx &nbsp;
+    <b>Р’Р°СЂРёР°РЅС‚:</b> 469987
+</header>
+
+<form id="form" action="${pageContext.request.contextPath}/controller" method="post">
+    <div class="row">X (-3 ... 3):
+        <input type="text" name="x" id="x" autocomplete="off" placeholder="РЅР°РїСЂРёРјРµСЂ, 1.5">
+    </div>
+    <div class="row">Y:
+        <c:forEach var="v" items="${['-2','-1.5','-1','-0.5','0','0.5','1','1.5','2']}">
+            <label><input type="radio" name="y" value="${v}"> ${v}</label>
+        </c:forEach>
+    </div>
+    <div class="row">R:
+        <select name="r" id="r">
+            <option value="">вЂ”</option>
+            <option value="1">1</option><option value="1.5">1.5</option>
+            <option value="2">2</option><option value="2.5">2.5</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+    <button type="submit">РџСЂРѕРІРµСЂРёС‚СЊ</button>
+    <span id="error" class="err"></span>
+</form>
+
+<p>РљР»РёРє РїРѕ РіСЂР°С„РёРєСѓ РѕС‚РїСЂР°РІР»СЏРµС‚ С‚РѕС‡РєСѓ РЅР° РїСЂРѕРІРµСЂРєСѓ (РЅСѓР¶РЅРѕ РІС‹Р±СЂР°С‚СЊ R).</p>
+<canvas id="plot" width="420" height="420"></canvas>
+
+<table>
+    <thead>
+    <tr><th>X</th><th>Y</th><th>R</th><th>РџРѕРїР°РґР°РЅРёРµ</th><th>Р’СЂРµРјСЏ</th><th>РЅСЃ</th></tr>
+    </thead>
+    <tbody>
+    <c:forEach var="res" items="${applicationScope.results}">
+        <tr>
+            <td>${res.x}</td><td>${res.y}</td><td>${res.r}</td>
+            <td>${res.hit ? 'Р”Р°' : 'РќРµС‚'}</td><td>${res.time}</td><td>${res.nanos}</td>
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
+
+<script>
+    const POINTS = [
+        <c:forEach var="res" items="${applicationScope.results}" varStatus="s">
+        {x: ${res.x}, y: ${res.y}, r: ${res.r}, hit: ${res.hit}}<c:if test="${!s.last}">,</c:if>
+        </c:forEach>
+    ];
+    const CONTROLLER_URL = "${pageContext.request.contextPath}/controller";
+</script>
+<script src="${pageContext.request.contextPath}/script.js"></script>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\src\main\webapp\script.js ===
+'use strict';
+
+const form = document.getElementById('form');
+const xInput = document.getElementById('x');
+const rSelect = document.getElementById('r');
+const errBox = document.getElementById('error');
+const canvas = document.getElementById('plot');
+const g = canvas.getContext('2d');
+
+const W = canvas.width, H = canvas.height;
+const CX = W / 2, CY = H / 2;
+const SCALE = (W / 2 - 25) / 3;           // 1 РµРґРёРЅРёС†Р° = SCALE РїРёРєСЃРµР»РµР№ (R РґРѕ 3)
+
+const px = x => CX + x * SCALE;
+const py = y => CY - y * SCALE;
+const currentR = () => (rSelect.value === '' ? null : Number(rSelect.value));
+const showError = msg => { errBox.textContent = msg || ''; };
+
+function validateForm() {
+    const raw = xInput.value.trim().replace(',', '.');
+    if (raw === '' || !/^[+-]?(\d+\.?\d*|\.\d+)$/.test(raw)) return 'X РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ С‡РёСЃР»РѕРј';
+    const x = Number(raw);
+    if (!(x > -3 && x < 3)) return 'X РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СЃС‚СЂРѕРіРѕ РјРµР¶РґСѓ -3 Рё 3';
+    if (!form.querySelector('input[name="y"]:checked')) return 'Р’С‹Р±РµСЂРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Y';
+    if (currentR() === null) return 'Р’С‹Р±РµСЂРёС‚Рµ СЂР°РґРёСѓСЃ R';
+    return null;
+}
+
+form.addEventListener('submit', e => {
+    const msg = validateForm();
+    showError(msg);
+    if (msg) e.preventDefault();             // РЅРµ РѕС‚РїСЂР°РІР»СЏС‚СЊ С„РѕСЂРјСѓ
+    else xInput.value = xInput.value.trim().replace(',', '.');
+});
+
+function drawArea(r) {
+    g.fillStyle = 'rgba(51, 153, 255, 0.85)';
+    g.beginPath();
+    g.moveTo(px(-r / 2), py(0)); g.lineTo(px(0), py(r)); g.lineTo(px(0), py(0));
+    g.closePath(); g.fill();
+    g.beginPath();
+    g.moveTo(px(0), py(0));
+    g.arc(px(0), py(0), r * SCALE, -Math.PI / 2, 0, false);
+    g.closePath(); g.fill();
+    g.fillRect(px(0), py(0), r * SCALE, (r / 2) * SCALE);
+}
+
+function drawAxes(r) {
+    g.strokeStyle = '#000'; g.fillStyle = '#000'; g.lineWidth = 1;
+    g.font = '12px sans-serif';
+    g.beginPath();
+    g.moveTo(0, CY); g.lineTo(W, CY);
+    g.moveTo(CX, 0); g.lineTo(CX, H);
+    g.stroke();
+    g.fillText('x', W - 12, CY - 6);
+    g.fillText('y', CX + 6, 12);
+    if (r === null) return;
+    const marks = [[-r, '-R'], [-r / 2, '-R/2'], [r / 2, 'R/2'], [r, 'R']];
+    for (const [v, name] of marks) {
+        g.beginPath();
+        g.moveTo(px(v), CY - 3); g.lineTo(px(v), CY + 3);
+        g.moveTo(CX - 3, py(v)); g.lineTo(CX + 3, py(v));
+        g.stroke();
+        g.fillText(name, px(v) - 8, CY + 16);
+        g.fillText(name, CX + 7, py(v) + 4);
+    }
+}
+
+function drawPoints(r) {
+    for (const p of POINTS) {
+        if (p.r !== r) continue;               // РїРѕРєР°Р·С‹РІР°РµРј С‚РѕС‡РєРё РґР»СЏ РІС‹Р±СЂР°РЅРЅРѕРіРѕ R
+        g.fillStyle = p.hit ? '#0a0' : '#d00';
+        g.beginPath(); g.arc(px(p.x), py(p.y), 4, 0, 2 * Math.PI); g.fill();
+    }
+}
+
+function redraw() {
+    const r = currentR();
+    g.clearRect(0, 0, W, H);
+    if (r !== null) drawArea(r);
+    drawAxes(r);
+    if (r !== null) drawPoints(r);
+}
+
+rSelect.addEventListener('change', () => { showError(''); redraw(); });
+redraw();
+
+canvas.addEventListener('click', ev => {
+    const r = currentR();
+    if (r === null) {
+        showError('РќРµРІРѕР·РјРѕР¶РЅРѕ РѕРїСЂРµРґРµР»РёС‚СЊ РєРѕРѕСЂРґРёРЅР°С‚С‹: СЃРЅР°С‡Р°Р»Р° РІС‹Р±РµСЂРёС‚Рµ R');
+        return;
+    }
+    const box = canvas.getBoundingClientRect();
+    const k = canvas.width / box.width;
+    const x = ((ev.clientX - box.left) * k - CX) / SCALE;
+    const y = (CY - (ev.clientY - box.top) * k) / SCALE;
+    if (!(x > -3 && x < 3)) {
+        showError('X РІРЅРµ РґРѕРїСѓСЃС‚РёРјРѕРіРѕ РёРЅС‚РµСЂРІР°Р»Р° (-3; 3)');
+        return;
+    }
+    showError('');
+    const f = document.createElement('form');
+    f.method = 'post';
+    f.action = CONTROLLER_URL;
+    const data = { x: x.toFixed(4), y: y.toFixed(4), r: String(r), source: 'graph' };
+    for (const [name, value] of Object.entries(data)) {
+        const i = document.createElement('input');
+        i.type = 'hidden'; i.name = name; i.value = value;
+        f.appendChild(i);
+    }
+    document.body.appendChild(f);
+    f.submit();
+});
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\target\lab3\WEB-INF\views\error.jsp ===
+<%@ page contentType="text/html;charset=UTF-8" isErrorPage="true" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>РћС€РёР±РєР°</title></head>
+<body>
+<h2>РћС€РёР±РєР° ${requestScope['jakarta.servlet.error.status_code']}</h2>
+<p><c:out value="${requestScope['jakarta.servlet.error.message']}"/></p>
+<a href="${pageContext.request.contextPath}/controller">Р’РµСЂРЅСѓС‚СЊСЃСЏ Рє С„РѕСЂРјРµ</a>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\target\lab3\WEB-INF\views\result.jsp ===
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё</title>
+    <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 20px auto; }
+        table { border-collapse: collapse; }
+        td, th { border: 1px solid #888; padding: 4px 12px; }
+        .hit { color: green; } .miss { color: red; }
+    </style>
+</head>
+<body>
+<h1>Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё</h1>
+<table>
+    <tr><th>X</th><th>Y</th><th>R</th><th>Р’СЂРµРјСЏ</th><th>Р’СЂРµРјСЏ СЂР°Р±РѕС‚С‹, РЅСЃ</th></tr>
+    <tr>
+        <td>${result.x}</td><td>${result.y}</td><td>${result.r}</td>
+        <td>${result.time}</td><td>${result.nanos}</td>
+    </tr>
+</table>
+<h2 class="${result.hit ? 'hit' : 'miss'}">
+    <c:out value="${result.hit ? 'РўРѕС‡РєР° РїРѕРїР°Р»Р° РІ РѕР±Р»Р°СЃС‚СЊ' : 'РўРѕС‡РєР° РЅРµ РїРѕРїР°Р»Р° РІ РѕР±Р»Р°СЃС‚СЊ'}"/>
+</h2>
+<p><a href="${pageContext.request.contextPath}/controller">РќРѕРІС‹Р№ Р·Р°РїСЂРѕСЃ</a></p>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\target\lab3\WEB-INF\web.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <display-name>lab3</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+            <scripting-invalid>true</scripting-invalid>
+        </jsp-property-group>
+    </jsp-config>
+
+    <error-page>
+        <error-code>400</error-code>
+        <location>/WEB-INF/views/error.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/WEB-INF/views/error.jsp</location>
+    </error-page>
+</web-app>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\target\lab3\index.jsp ===
+<%--
+  Created by IntelliJ IDEA.
+  User: Liebert
+  Date: 06.10.2026
+  Time: 02:37
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° в„–3</title>
+    <style>
+        body { font-family: sans-serif; max-width: 900px; margin: 20px auto; padding: 0 10px; }
+        header { background: #e8eefc; padding: 10px 14px; border-radius: 6px; margin-bottom: 16px; }
+        .row { margin: 10px 0; }
+        .err { color: #c00; margin-left: 10px; }
+        canvas { border: 1px solid #bbb; cursor: crosshair; max-width: 100%; }
+        table { border-collapse: collapse; margin-top: 16px; }
+        td, th { border: 1px solid #888; padding: 4px 10px; }
+    </style>
+</head>
+<body>
+<header>
+    <b>Р¤РРћ:</b> РРІР°РЅРѕРІ РРІР°РЅ РРІР°РЅРѕРІРёС‡ &nbsp;
+    <b>Р“СЂСѓРїРїР°:</b> P3xxx &nbsp;
+    <b>Р’Р°СЂРёР°РЅС‚:</b> 469987
+</header>
+
+<form id="form" action="${pageContext.request.contextPath}/controller" method="post">
+    <div class="row">X (-3 ... 3):
+        <input type="text" name="x" id="x" autocomplete="off" placeholder="РЅР°РїСЂРёРјРµСЂ, 1.5">
+    </div>
+    <div class="row">Y:
+        <c:forEach var="v" items="${['-2','-1.5','-1','-0.5','0','0.5','1','1.5','2']}">
+            <label><input type="radio" name="y" value="${v}"> ${v}</label>
+        </c:forEach>
+    </div>
+    <div class="row">R:
+        <select name="r" id="r">
+            <option value="">вЂ”</option>
+            <option value="1">1</option><option value="1.5">1.5</option>
+            <option value="2">2</option><option value="2.5">2.5</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+    <button type="submit">РџСЂРѕРІРµСЂРёС‚СЊ</button>
+    <span id="error" class="err"></span>
+</form>
+
+<p>РљР»РёРє РїРѕ РіСЂР°С„РёРєСѓ РѕС‚РїСЂР°РІР»СЏРµС‚ С‚РѕС‡РєСѓ РЅР° РїСЂРѕРІРµСЂРєСѓ (РЅСѓР¶РЅРѕ РІС‹Р±СЂР°С‚СЊ R).</p>
+<canvas id="plot" width="420" height="420"></canvas>
+
+<table>
+    <thead>
+    <tr><th>X</th><th>Y</th><th>R</th><th>РџРѕРїР°РґР°РЅРёРµ</th><th>Р’СЂРµРјСЏ</th><th>РЅСЃ</th></tr>
+    </thead>
+    <tbody>
+    <c:forEach var="res" items="${applicationScope.results}">
+        <tr>
+            <td>${res.x}</td><td>${res.y}</td><td>${res.r}</td>
+            <td>${res.hit ? 'Р”Р°' : 'РќРµС‚'}</td><td>${res.time}</td><td>${res.nanos}</td>
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
+
+<script>
+    const POINTS = [
+        <c:forEach var="res" items="${applicationScope.results}" varStatus="s">
+        {x: ${res.x}, y: ${res.y}, r: ${res.r}, hit: ${res.hit}}<c:if test="${!s.last}">,</c:if>
+        </c:forEach>
+    ];
+    const CONTROLLER_URL = "${pageContext.request.contextPath}/controller";
+</script>
+<script src="${pageContext.request.contextPath}/script.js"></script>
+</body>
+</html>
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\target\lab3\script.js ===
+'use strict';
+
+const form = document.getElementById('form');
+const xInput = document.getElementById('x');
+const rSelect = document.getElementById('r');
+const errBox = document.getElementById('error');
+const canvas = document.getElementById('plot');
+const g = canvas.getContext('2d');
+
+const W = canvas.width, H = canvas.height;
+const CX = W / 2, CY = H / 2;
+const SCALE = (W / 2 - 25) / 3;           // 1 РµРґРёРЅРёС†Р° = SCALE РїРёРєСЃРµР»РµР№ (R РґРѕ 3)
+
+const px = x => CX + x * SCALE;
+const py = y => CY - y * SCALE;
+const currentR = () => (rSelect.value === '' ? null : Number(rSelect.value));
+const showError = msg => { errBox.textContent = msg || ''; };
+
+/* ---------- Р’Р°Р»РёРґР°С†РёСЏ С„РѕСЂРјС‹ ---------- */
+function validateForm() {
+    const raw = xInput.value.trim().replace(',', '.');
+    if (raw === '' || !/^[+-]?(\d+\.?\d*|\.\d+)$/.test(raw)) return 'X РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ С‡РёСЃР»РѕРј';
+    const x = Number(raw);
+    if (!(x > -3 && x < 3)) return 'X РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СЃС‚СЂРѕРіРѕ РјРµР¶РґСѓ -3 Рё 3';
+    if (!form.querySelector('input[name="y"]:checked')) return 'Р’С‹Р±РµСЂРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Y';
+    if (currentR() === null) return 'Р’С‹Р±РµСЂРёС‚Рµ СЂР°РґРёСѓСЃ R';
+    return null;
+}
+
+form.addEventListener('submit', e => {
+    const msg = validateForm();
+    showError(msg);
+    if (msg) e.preventDefault();             // РЅРµ РѕС‚РїСЂР°РІР»СЏС‚СЊ С„РѕСЂРјСѓ
+    else xInput.value = xInput.value.trim().replace(',', '.');
+});
+
+/* ---------- Р РёСЃРѕРІР°РЅРёРµ РѕР±Р»Р°СЃС‚Рё РІР°СЂРёР°РЅС‚Р° 469987 ---------- */
+function drawArea(r) {
+    g.fillStyle = 'rgba(51, 153, 255, 0.85)';
+    // II С‡РµС‚РІРµСЂС‚СЊ: С‚СЂРµСѓРіРѕР»СЊРЅРёРє (-R/2,0) (0,R) (0,0)
+    g.beginPath();
+    g.moveTo(px(-r / 2), py(0)); g.lineTo(px(0), py(r)); g.lineTo(px(0), py(0));
+    g.closePath(); g.fill();
+    // I С‡РµС‚РІРµСЂС‚СЊ: С‡РµС‚РІРµСЂС‚СЊ РєСЂСѓРіР° СЂР°РґРёСѓСЃР° R
+    g.beginPath();
+    g.moveTo(px(0), py(0));
+    g.arc(px(0), py(0), r * SCALE, -Math.PI / 2, 0, false);
+    g.closePath(); g.fill();
+    // IV С‡РµС‚РІРµСЂС‚СЊ: РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє R x R/2
+    g.fillRect(px(0), py(0), r * SCALE, (r / 2) * SCALE);
+}
+
+function drawAxes(r) {
+    g.strokeStyle = '#000'; g.fillStyle = '#000'; g.lineWidth = 1;
+    g.font = '12px sans-serif';
+    g.beginPath();
+    g.moveTo(0, CY); g.lineTo(W, CY);
+    g.moveTo(CX, 0); g.lineTo(CX, H);
+    g.stroke();
+    g.fillText('x', W - 12, CY - 6);
+    g.fillText('y', CX + 6, 12);
+    if (r === null) return;
+    const marks = [[-r, '-R'], [-r / 2, '-R/2'], [r / 2, 'R/2'], [r, 'R']];
+    for (const [v, name] of marks) {
+        g.beginPath();
+        g.moveTo(px(v), CY - 3); g.lineTo(px(v), CY + 3);
+        g.moveTo(CX - 3, py(v)); g.lineTo(CX + 3, py(v));
+        g.stroke();
+        g.fillText(name, px(v) - 8, CY + 16);
+        g.fillText(name, CX + 7, py(v) + 4);
+    }
+}
+
+function drawPoints(r) {
+    for (const p of POINTS) {
+        if (p.r !== r) continue;               // РїРѕРєР°Р·С‹РІР°РµРј С‚РѕС‡РєРё РґР»СЏ РІС‹Р±СЂР°РЅРЅРѕРіРѕ R
+        g.fillStyle = p.hit ? '#0a0' : '#d00';
+        g.beginPath(); g.arc(px(p.x), py(p.y), 4, 0, 2 * Math.PI); g.fill();
+    }
+}
+
+function redraw() {
+    const r = currentR();
+    g.clearRect(0, 0, W, H);
+    if (r !== null) drawArea(r);
+    drawAxes(r);
+    if (r !== null) drawPoints(r);
+}
+
+rSelect.addEventListener('change', () => { showError(''); redraw(); });
+redraw();
+
+/* ---------- РљР»РёРє РїРѕ РіСЂР°С„РёРєСѓ ---------- */
+canvas.addEventListener('click', ev => {
+    const r = currentR();
+    if (r === null) {
+        showError('РќРµРІРѕР·РјРѕР¶РЅРѕ РѕРїСЂРµРґРµР»РёС‚СЊ РєРѕРѕСЂРґРёРЅР°С‚С‹: СЃРЅР°С‡Р°Р»Р° РІС‹Р±РµСЂРёС‚Рµ R');
+        return;
+    }
+    const box = canvas.getBoundingClientRect();
+    const k = canvas.width / box.width;     // СѓС‡С‘С‚ РјР°СЃС€С‚Р°Р±РёСЂРѕРІР°РЅРёСЏ canvas РІ CSS
+    const x = ((ev.clientX - box.left) * k - CX) / SCALE;
+    const y = (CY - (ev.clientY - box.top) * k) / SCALE;
+    if (!(x > -3 && x < 3)) {
+        showError('X РІРЅРµ РґРѕРїСѓСЃС‚РёРјРѕРіРѕ РёРЅС‚РµСЂРІР°Р»Р° (-3; 3)');
+        return;
+    }
+    showError('');
+    const f = document.createElement('form');
+    f.method = 'post';
+    f.action = CONTROLLER_URL;
+    const data = { x: x.toFixed(4), y: y.toFixed(4), r: String(r), source: 'graph' };
+    for (const [name, value] of Object.entries(data)) {
+        const i = document.createElement('input');
+        i.type = 'hidden'; i.name = name; i.value = value;
+        f.appendChild(i);
+    }
+    document.body.appendChild(f);
+    f.submit();
+});
+
+
+=== FILE: D:\WEB\lab3\JSP_servlets_lab\pom.xml ===
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>lab3</groupId>
+    <artifactId>lab3</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <properties>
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>lab3</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
